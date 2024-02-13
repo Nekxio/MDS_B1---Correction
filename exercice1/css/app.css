@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fredoka+One&family=Kanit:wght@300&display=swap);
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+
+
+*,
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+    font-family: "Kanit", sans-serif;
+}
+
+/*DEFAULT*/
+p {
+    font-family: "Kanit", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+}
+
+.title {
+    font-size: 2em;
+    font-family: "Archivo Black", sans-serif;
+    text-transform: uppercase;
+}
+
+.sub-title {
+    font-size: 1em;
+    font-family: "Kanit", sans-serif;
+}
+
+em {
+    font-style: normal;
+    color: #4033ff;
+}
+
+.active {
+    color: gray;
+}
+
+
+/* Buttons */
+.btn {
+    padding: 10px 20px;
+    box-shadow: 0 3px 8px -3px rgba(1, 1, 1, 0.5);
+    outline: none;
+    border: 0;
+    border-radius: 4rem;
+    font-weight: 400;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.btn-primary {
+    background: #4033FF;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background: #3d35ec;
+}
+
+.btn-secondary {
+    background: #ffffff;
+    color: #4033FF;
+}
+
+.btn-secondary:hover {
+    background-color: rgb(180, 205, 255);
+}
+
+
+.banner {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+
+#scroll-up {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    background: #1e1e1e;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 0 6px 16px -6px rgba(1, 1, 1, 0.5);
+    z-index: 999;
+    display: none;
+}

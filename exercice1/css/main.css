@@ -1,0 +1,110 @@
+/* Section 1 */
+
+#school {
+    min-height: 50vh;
+    max-height: 100vh;
+    color: #ffffff;
+    margin-top: 5vh;
+    padding-top: 1rem;
+}
+
+#school > div:first-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4033FF;
+}
+
+#school > div div {
+    display: flex;
+    width: 50%;
+    height: fit-content;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: flex-start;
+}
+
+#school > div:first-child img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.3);
+}
+
+#school #mainWaves {
+    width: 100%;
+    margin-top: -1rem;
+}
+
+#school #mainWaves img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Section 2 */
+
+#courses {
+    display: flex;
+    padding: 2rem 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#courses > div:nth-last-child(1) {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+#courses > div:nth-last-child(1) > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    width: 25%;
+}
+
+
+/* Section 3 */
+
+#discover {
+    display: flex;
+    padding: 4rem 2rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+}
+
+#discover div {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding: 0 2rem;
+    align-items: center;
+}
+
+#discover img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.3);
+}

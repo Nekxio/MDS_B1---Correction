@@ -1,0 +1,54 @@
+/*NAV-BAR*/
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+    background-color: #4033FF;
+    overflow: hidden;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+#navbar {
+    width: 75%;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+#navbar li {
+    padding-right: 2rem;
+}
+
+#navbar a {
+    font-size: 17px;
+    color: #ffffff;
+}
+
+#navbarLogo {
+    width: 25%;
+    padding: 1rem 0;
+}
+
+#navbarLogo img {
+    width: 6rem;
+}
+
+.link {
+    text-decoration: none;
+
+}
+
+.link:hover {
+    opacity: 0.8;
+}
