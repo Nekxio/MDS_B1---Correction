@@ -1,0 +1,66 @@
+/*FOOTER*/
+
+footer > img {
+    margin-bottom: -2rem;
+}
+
+.footer {
+    padding: 4rem 0;
+    color: var(--secondary);
+    background-color: var(--primary);
+}
+
+.footer > div {
+    padding: 2rem;
+}
+
+.footer a {
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    opacity: 0.8;
+}
+
+.footer img {
+    width: 10rem;
+    margin-top: 1.5rem;
+}
+
+
+#newsletter {
+    width: 100%;
+    text-align: center;
+}
+
+#newsletter input {
+    padding: 1rem;
+    margin: 1rem 0;
+    border: solid 0.1rem var(--secondary);
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+
+#newsletter button[type="submit"] {
+    background: var(--primary);
+    color: var(--secondary);
+    font-weight: 600;
+    padding: 1rem;
+    margin: 0 -0.2rem;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border: solid 0.1rem var(--secondary);
+    border-left: 0;
+    cursor: pointer;
+}
+
+.sub-footer {
+    background: var(--primary);
+    text-align: center;
+    font-size: 14px;
+    color: var(--secondary);
+    padding: 1rem 0;
+    border-top: solid 0.1rem rgba(255, 255, 255, 0.15);
+}

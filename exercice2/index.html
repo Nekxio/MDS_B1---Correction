@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="[YOUR NAME]">
+    <meta name="description" content="Exercice 2 - MDS Front End">
+    <meta name="keywords" content="Exercice, MDS, front end">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Document</title>
+</head>
+
+<body class="light">
+<header class="full-width">
+    <div class="flex-row-between">
+        <a id="navbarLogo" href="#">
+            <img src="img/logo_mds_white.png"
+                 alt="MDS">
+        </a>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="#school" class="link">School</a>
+                </li>
+                <li>
+                    <a href="#courses" class="link">Courses</a>
+                </li>
+                <li>
+                    <a href="#newsletter" class="link">Newsletter</a>
+                </li>
+                <li>
+                    <button type="button" id="switchTheme" class="btn tn-secondary" onclick="switchTheme()">Theme
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="main flex-column-center">
+    <section id="school" class="flex-column-center full-width">
+        <div class="flex-column-center full-width">
+            <div class="flex-column-center full-width">
+                <h3 class="sub-title">Welcome to MDS</h3>
+                <h1 class="title">Lorem ipsum dolor sit amet !</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.</p>
+                <a href="#courses" class="btn btn-secondary">Explore courses</a>
+            </div>
+            <div class="flex-column-center full-width">
+                <img src="https://picsum.photos/600/300" alt="INFERNO">
+            </div>
+        </div>
+        <div id="mainWaves" class="full-width">
+            <img src="img/mainWave.svg" alt="">
+        </div>
+    </section>
+
+    <section id="courses" class="flex-column-center">
+        <div class="flex-column-center full-width">
+            <h2 class="title">Our Featured Services</h2>
+            <h3 class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.</h3>
+        </div>
+        <div>
+            <div class="flex-column-center full-width">
+                <div class="card flex-column-center full-width">
+                    <img src="img/light/thumbs_up.svg" alt="">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="card flex-column-center full-width">
+                    <img src="img/light/mail.svg" alt="">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="card flex-column-center full-width">
+                    <img src="img/light/message_circle.svg" alt="">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+            </div>
+            <div class="flex-column-center full-width">
+                <div class="card flex-column-center full-width">
+                    <img src="img/light/shopping_cart.svg" alt="">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="card flex-column-center full-width">
+                    <img src="img/light/instagram.svg" alt="">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="card flex-column-center full-width">
+                    <img src="img/light/camera.svg" alt="">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="discover" class="flex-column-center">
+        <div class="flex-column-center full-width">
+            <img src="https://picsum.photos/600/300" alt="About Us">
+        </div>
+        <div class="flex-column-center full-width">
+            <h3 class="sub-title">Discover our school</h3>
+            <h1 class="title">Lorem ipsum dolor sit amet</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore
+                et dolore magna aliqua.</p>
+            <a href="#" class="btn btn-primary">Discover More</a>
+        </div>
+    </section>
+    <button id="backToTop" onclick="backToTop(); changeBackToTopColor();"><img src="img/arrow_up.svg" alt="back to top">
+    </button>
+</main>
+
+<footer>
+    <img src="img/footerWave.svg" alt="">
+    <div class="footer flex-row-between full-width">
+        <div class="flex-column-center full-width">
+            <img src="img/logo_mds_white.png" alt="MDS">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+            </p>
+        </div>
+
+        <div class="flex-column-center full-width">
+            <p class="title">Lorem</p>
+            <a href="#">Ticket</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Cookie Policy</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+
+        <div class="flex-column-center full-width">
+            <p class="title">Ipsum</p>
+            <a href="#">Services</a>
+            <a href="#">About Us</a>
+            <a href="#">Our Fields</a>
+        </div>
+
+        <div class="flex-column-center full-width">
+            <p class="title">Newsletter</p>
+            <div id="newsletter">
+                <form action="#" method="post">
+                    <label for="email">Subscribe to our newsletter</label>
+                    <input id="email" name="email" type="email" placeholder="Email*" required>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="sub-footer">
+        <p>Copyright © 2024 - MDS | All Right Reserved</p>
+    </div>
+</footer>
+<script src="./js/app.js"></script>
+</body>
+</html>
